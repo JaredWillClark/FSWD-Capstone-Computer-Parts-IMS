@@ -1,0 +1,14 @@
+:root {
+    --color-primary: { color: #2473CF};
+    --color-secondary: { color: #35393D};
+    --color-white: { color: #B5B1B1};
+
+    --color-grey-blue: { color: #92A2AF};
+    --color-grey-neutral { color: #B5B1B1};
+}
+
+.div__column--color-01 {
+    background-color: var(--color-secondary);
+    
+}
+
