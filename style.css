@@ -1,14 +1,68 @@
 :root {
-    --color-primary: { color: #2473CF};
-    --color-secondary: { color: #35393D};
-    --color-white: { color: #B5B1B1};
+    --color-primary: #2473CF;
+    --color-secondary: #35393D;
+    --color-white: #B5B1B1;
 
-    --color-grey-blue: { color: #92A2AF};
-    --color-grey-neutral { color: #B5B1B1};
+    --color-grey-blue:#92A2AF;
+    --color-grey-neutral: #B5B1B1;
+
+    /* bootstrap-color test */
+    --bs-body-color: {}
 }
 
-.div__column--color-01 {
-    background-color: var(--color-secondary);
+.background__div--color-01 {
+    background-color: var(--color-primary);
     
 }
 
+.background-left__div--dimensions {
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    background-color: lightblue; /* for visibility */
+    padding: 5vh;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.background-right__div--dimensions {
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    background-color: lightgrey; /* for visibility */
+    padding: 5vh;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+.background__div--overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; /
+}
+
+.login__div--flex {
+    display: flex;
+}
+
+.title__div--position {
+    padding: 30px;
+    max-width: 500px;
+    justify-content: center;
+    align-items: auto;
+}
+    
+.form-login__div--position {
+    padding: 35vh 0 0 0;
+    margin: 0 10rem 0 10rem;
+}
