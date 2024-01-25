@@ -1,7 +1,7 @@
 :root {
     --color-primary: #2473CF;
     --color-secondary: #35393D;
-    --color-white: #FFFFFF;
+    --color-white: #B5B1B1;
 
     --color-grey-blue:#92A2AF;
     --color-grey-neutral: #B5B1B1;
@@ -107,44 +107,6 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-/* dashboard styles */
-
-.dashboard__body {
-    display: flex;
-}
-
-.menu-side__div--color {
-    background-color: var(--color-secondary);
-    color: var(--color-white);
-}
-
-.menu-side-title__div--dimension {
-    display: block;
-    font-size: 1.5rem;
-    padding: 1rem 0rem 2rem 1rem;
-}
-
-.menu-side__a--dimension {
-    display: block;
-    font-size: 2rem;
-    padding: 1rem 8rem 2rem 4rem;
-
-}
-
-.menu-side-settings__a--dimension {
-    display: block;
-    font-size: 2rem;
-    padding: 1rem 8rem 2rem 4rem;
-    position: absolute;
-    bottom: 0;
-
-}
-
-.menu-side__a--color {
-    color: var(--color-white);
-    font-weight: 600;
 }
 
 
