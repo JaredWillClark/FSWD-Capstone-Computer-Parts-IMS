@@ -147,4 +147,14 @@ html, body {
     font-weight: 600;
 }
 
+.main-body {
+    width: 100%;
+    color: var(--color-white);
+    border: 1rem 8rem 2rem 4rem;
+}
+
+.menu-title__div--color {
+    background-color: var(--color-primary);
+}
+
 
