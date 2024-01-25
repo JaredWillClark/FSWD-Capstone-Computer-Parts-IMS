@@ -10,6 +10,12 @@
     --bs-body-color: {}
 }
 
+/* CSS reset  */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 .background__div--color-01 {
     background-color: var(--color-primary);
     
@@ -77,3 +83,30 @@
     margin: 0.5rem 1rem;
     
 }
+
+.sign-up-title__div--center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 5rem 5rem 0rem;
+}
+
+.form__form--position-center {
+    padding: 0 10rem 5rem 10rem ;
+}
+
+.sign-up__div--background {
+    background-color: var(--color-primary);
+}
+
+.sign-up__div--dimensions {
+    max-width: 50rem;
+}
+
+.body--center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
