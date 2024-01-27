@@ -1,4 +1,6 @@
 # FSWD-Capstone-Computer-Parts-IMS
+This project is the capstone for college
+
 The "Build an Integrated Management System for Organizing Computer Parts" project focuses on the development of a specialized software system designed to efficiently manage and organize computer components. 
 This system aims to streamline the inventory process for items like CPUs, GPUs, RAM, and motherboards. 
 Key features include real-time tracking of parts, categorization capabilities, and a user-friendly interface that allows for quick access and updates. 
