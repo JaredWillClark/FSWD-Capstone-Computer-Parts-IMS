@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inventory Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Dashboard</h1>
+
+<body class="dashboard__body">
+    <div class="menu-side__div--color menu-side-title__div--dimension">
+        <h2>Computer Parts IMS</h2>
+        <a href="dashboard.html" class="menu-side__a--dimension menu-side__a--color">Dashboard</a>
+        <a href="inventory.html" class="menu-side__a--dimension menu-side__a--color">Inventory</a>
+        <a href="setting.html" class="menu-side-settings__a--dimension menu-side__a--color">Setting</a>
+    </div>
+    <section class="main-body">
+        <div class="menu-title__div--color menu-side-title__div--dimension">
+            Dashboard
+        </div>
+        <section class="menu-body--color main-body__section--display">
+            <div class="status-card">
+                <div class="status-inventory-number status-inventory-number__div--color
+                status-inventory-number__div--position">
+                    <h3>Number of Items in Inventory</h3>
+                    
+                </div>
+                <h3 class="status-inventory-number__text"> 0 </h3>
+            </div>
+
+            <div class="status-card">
+                <div class="status-inventory-last-item  status-inventory-last-item__div--color status-inventory-last-item__div--position">
+                    <h3>Last Item Added to Inventory</h3>
+                </div>
+                <h3 class="status-inventory-last-item__text">none</h3>
+            </div>
+                
+        </section>
+        
+    </section>
     
 </body>
 </html>

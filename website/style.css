@@ -1,10 +1,15 @@
 :root {
     --color-primary: #2473CF;
     --color-secondary: #35393D;
-    --color-white: #B5B1B1;
+    --color-white: #FFFFFF;
 
     --color-grey-blue:#92A2AF;
     --color-grey-neutral: #B5B1B1;
+
+    /* status positions */
+    --status-card--margin: 4rem;
+    --status-card--padding: 2rem;
+    
 
     /* bootstrap-color test */
     --bs-body-color: {}
@@ -38,7 +43,7 @@ html, body {
     position: relative;
     width: 50%;
     height: 100vh;
-    background-color: lightgrey; /* for visibility */
+    background-color: var(--color-white); /* for visibility */
     padding: 5vh;
     margin: 0px;
     justify-content: center;
@@ -108,5 +113,116 @@ html, body {
     justify-content: center;
     align-items: center;
 }
+
+/* dashboard styles */
+
+.dashboard__body {
+    display: flex;
+}
+
+.menu-side__div--color {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+}
+
+.menu-side-title__div--dimension {
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem 0rem 2rem 1rem;
+    font-weight: 700;
+}
+
+.menu-side__a--dimension {
+    display: block;
+    font-size: 2rem;
+    padding: 1rem 8rem 2rem 4rem;
+
+}
+
+.menu-side-settings__a--dimension {
+    display: block;
+    font-size: 2rem;
+    padding: 1rem 8rem 2rem 4rem;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.menu-side__a--color {
+    color: var(--color-white);
+    font-weight: 600;
+}
+
+.main-body {
+    width: 100%;
+    color: var(--color-white);
+    border: 1rem 8rem 2rem 4rem;
+}
+
+.menu-title__div--color {
+    background-color: var(--color-primary);
+}
+
+.menu-body--color {
+    background-color: var(--color-white);
+}
+
+.main-body__section--display {
+    display: flex;
+}
+
+/* dashboard status cards  */
+.status-card {
+    background-color: var(--color-grey-neutral);
+    margin: var(--status-card--margin);
+    padding-bottom: 10rem;
+    border-radius: 80px; /* Adjust the radius as needed */
+       
+}
+
+
+.status-inventory-number__div--color {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.status-inventory-number__div--position {
+    margin-top: 0;
+    padding: var(--status-card--padding);
+    border-radius: 50px 50px 0 0;
+}
+
+.status-inventory-number__text {
+    font-size: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.status-inventory-last-item__div--color {
+    background-color: var(--color-primary);
+    color: var(--color-white)
+    
+}
+
+.status-inventory-last-item__div--position {
+    margin-top: 0;
+    padding: var(--status-card--padding);
+    border-radius: 50px 50px 0 0;
+    
+}
+
+.status-inventory-last-item__text {
+    font-size: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+
+
+
 
 
